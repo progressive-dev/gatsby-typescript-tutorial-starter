@@ -12,9 +12,7 @@ This is a starter code for the tutorial. In this tutorial we're going to convert
 
 ## 🚀 Quick start
 
-    ```shell
     npm run develop
-    ```
 
 ## 🧐 What's inside?
 
