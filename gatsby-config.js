@@ -5,6 +5,23 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+    /* Your site config here */
+    plugins: [
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `src`,
+          path: `./src`,
+        },
+      },
+      `gatsby-transformer-remark`,
+      `gatsby-plugin-emotion`,
+      {
+        resolve: `gatsby-plugin-typography`,
+        options: {
+          pathToConfigModule: `src/utils/typography`,
+        },
+      },
+    ],
+  }
+  
